@@ -7,7 +7,8 @@ function next() {
   if (Date.now() > nextTime) {
     if (isHungry) {
       for (const mole of moles) {
-        mole.src = "./static/mole-game/mole-sad.png";
+        mole.src = "";
+        mole.alt = "";
       }
     } else {
       for (const mole of moles) {
