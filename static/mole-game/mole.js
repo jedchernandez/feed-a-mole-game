@@ -16,65 +16,65 @@ const moles = [
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-0")
+    node: document.getElementById("hole-0"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-1")
+    node: document.getElementById("hole-1"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-2")
+    node: document.getElementById("hole-2"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-3")
+    node: document.getElementById("hole-3"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-4")
+    node: document.getElementById("hole-4"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-5")
+    node: document.getElementById("hole-5"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-6")
+    node: document.getElementById("hole-6"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-7")
+    node: document.getElementById("hole-7"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-8")
+    node: document.getElementById("hole-8"),
   },
   {
     status: "sad",
     next: getSadInterval(),
     king: true,
-    node: document.getElementById("hole-9")
-  }
+    node: document.getElementById("hole-9"),
+  },
 ];
 
-const getNextStatus = mole => {
+const getNextStatus = (mole) => {
   switch (mole.status) {
     case "sad":
     case "fed":
@@ -117,7 +117,7 @@ const getNextStatus = mole => {
   }
 };
 
-const feed = e => {
+const feed = (e) => {
   if (e.target.tagName !== "IMG" || !e.target.classList.contains("hungry")) {
     return;
   }
