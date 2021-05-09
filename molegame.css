@@ -56,3 +56,15 @@ body {
 .win {
   background-image: url("./static/mole-game/win.png");
 }
+
+.worm {
+  width: 1660px;
+}
+
+.worm-container {
+  overflow: hidden;
+}
+
+.worm-box {
+  width: 1660px;
+}

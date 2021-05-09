@@ -126,11 +126,12 @@ const feed = (e) => {
     mole.node.children[0].src = "./static/mole-game/mole-fed.png";
     mole.node.children[0].classList.remove("hungry");
   }
-  score++;
+
   if (score >= 10) {
     win();
     return;
   }
+  document.querySelector(".worm-container").style.width = `${10 * score}%`;
 };
 
 const win = () => {
