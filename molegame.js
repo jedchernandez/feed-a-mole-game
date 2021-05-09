@@ -16,7 +16,7 @@ function next() {
       }
     }
     isHungry = !isHungry;
-    nextTime = Date.now() + 500;
+    nextTime = Date.now() + 2000;
   }
   requestAnimationFrame(next);
 }

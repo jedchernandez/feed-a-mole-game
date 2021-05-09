@@ -8,92 +8,108 @@
     <link rel="stylesheet" href="molegame.css" />
   </head>
   <body>
-    <div class="background">
-      <section class="feed-meter">
-        <img
-          src="./static/mole-game/worm.png"
-          alt="A cute, long, and wavy pink worm"
-        />
-      </section>
-      <section class="mole-holes">
-        <div class="mole-row">
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
+    <section class="background">
+      <div class="hole-container">
+        <div class="hole" id="hole-0">
+          <img
+            data-index="0"
+            src="./static/mole-game/king-mole-hungry.png"
+            alt="mole"
+            class="mole"
+          />
         </div>
-        <div class="mole-row">
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-1">
+          <img
+            data-index="1"
+            src="./static/mole-game/king-mole-fed.png"
+            alt="mole"
+            class="mole"
+          />
         </div>
-        <div class="mole-row half">
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
-          <section class="hole">
-            <img
-              class="mole"
-              src="./static/mole-game/mole-hungry.png"
-              alt="mole-hungry"
-            />
-          </section>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-2">
+          <img
+            data-index="2"
+            src="./static/mole-game/king-mole-hungry.png"
+            alt="mole"
+            class="mole"
+          />
         </div>
-      </section>
-    </div>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-3">
+          <img
+            data-index="3"
+            src="./static/mole-game/king-mole-sad.png"
+            alt="mole"
+            class="mole"
+          />
+        </div>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-4">
+          <img
+            data-index="4"
+            src="./static/mole-game/king-mole-leaving.png"
+            alt="mole"
+            class="mole"
+          />
+        </div>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-5">
+          <img
+            data-index="5"
+            src="./static/mole-game/mole-hungry.png"
+            alt="mole"
+            class="mole"
+          />
+        </div>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-6">
+          <img
+            data-index="6"
+            src="./static/mole-game/mole-fed.png"
+            alt="mole"
+            class="mole"
+          />
+        </div>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-7">
+          <img
+            data-index="7"
+            src="./static/mole-game/mole-sad.png"
+            alt="mole"
+            class="mole"
+          />
+        </div>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-8">
+          <img
+            data-index="8"
+            src="./static/mole-game/mole-leaving.png"
+            alt="mole"
+            class="mole"
+          />
+        </div>
+      </div>
+      <div class="hole-container">
+        <div class="hole" id="hole-9">
+          <img
+            data-index="9"
+            src="./static/mole-game/king-mole-hungry.png"
+            alt="happy mole"
+            class="mole"
+          />
+        </div>
+      </div>
+    </section>
     <script src="./molegame.js"></script>
   </body>
 </html>

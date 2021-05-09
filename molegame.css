@@ -3,52 +3,51 @@
 }
 
 body {
+  cursor: url(./static/mole-game/cursor.png), default;
   background-color: yellowgreen;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  padding: 0;
+  margin: 0;
   height: 100vh;
-  cursor: url(./static/mole-game/cursor.png), default;
 }
 
 .background {
   background-image: url(./static/mole-game/background.png);
+  background-repeat: no-repeat;
   width: 1920px;
   height: 1080px;
   display: flex;
-  flex-direction: column;
-  align-content: stretch;
-  justify-content: flex-start;
-  padding: 15px;
-}
-
-.feed-meter {
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .hole {
-  background: black;
+  background-color: black;
   border-radius: 50%;
-  height: 260px;
-  width: 260px;
+  overflow: visible;
+  width: 270px;
+  height: 270px;
+}
+
+.hole-container {
+  width: 25%;
   display: flex;
-  align-content: stretch;
   justify-content: center;
-  /* cursor: url(./static/mole-game/cursor-worm.png), default; */
+  align-content: center;
 }
 
-.mole-row {
-  display: flex;
-  align-content: stretch;
-  justify-content: space-around;
-  margin: 40px;
+.mole {
+  position: relative;
+  right: 30px;
 }
 
-.half {
-  width: 48.1%;
-  margin-inline: 26%;
+.hungry {
+  cursor: url(./static/mole-game/cursor-worm.png), default;
+}
+
+.gone {
+  display: none;
 }
