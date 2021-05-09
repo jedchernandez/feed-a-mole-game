@@ -48,6 +48,11 @@ body {
   cursor: url(./static/mole-game/cursor-worm.png), default;
 }
 
-.gone {
+.gone,
+.hide {
   display: none;
+}
+
+.win {
+  background-image: url("./static/mole-game/win.png");
 }
