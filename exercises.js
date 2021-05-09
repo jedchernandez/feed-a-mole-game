@@ -35,3 +35,28 @@ setTimeout(function () {
     Advantage 1: Better performance. No need to force the browser to stop.
     Advantage 2: Pauses automatically when user tabs out from the involved browser
 */
+
+// mole exercise
+// const moles = document.getElementsByClassName("mole");
+
+// let isHungry = true;
+// let nextTime = Date.now();
+
+// function next() {
+//   if (Date.now() > nextTime) {
+//     if (isHungry) {
+//       for (const mole of moles) {
+//         mole.src = "";
+//         mole.alt = "";
+//       }
+//     } else {
+//       for (const mole of moles) {
+//         mole.src = "./static/mole-game/mole-hungry.png";
+//       }
+//     }
+//     isHungry = !isHungry;
+//     nextTime = Date.now() + 2000;
+//   }
+//   requestAnimationFrame(next);
+// }
+// next();
